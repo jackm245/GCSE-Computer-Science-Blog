@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #f7faff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Comfortaa', cursive;
+  color: $white;
+  margin:0;
+}
+.container {
+  color: $black;
+  margin-top: 10px;  
+  width:74px;
+  max-width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  border-left: 5px solid #A9A9A9;
+  border-bottom: 5px solid #D3D3D3;
+  border-right: 5px solid #D3D3D3;
+  border-top: 5px solid #A9A9A9;
+  border-style: inset;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top:0;
+  width: 100%;
+  padding-bottom:0px;
+}
+
+.navbar a {
+  font-family: 'Comfortaa', cursive;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  float:right;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+}
+
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#pad{
+  padding:0px;
+  float:left;
+  padding-top: 11px;
+  padding-right: 16px;
+  padding-bottom: 2px;
+  padding-left: 16px;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+p{
+  font-family: 'Comfortaa', cursive;
+  line-height: 20px;
+  }
+
+b{
+  font-family: 'Comfortaa', cursive;
+  line-height: 20px;
+  font-weight: bold;
+  color: #000
+}
+i{
+  font-family: 'Comfortaa', cursive;
+  line-height: 20px;
+  font-style: italic;
+}
+h{
+  font-size:16px;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  line-height: 20px;
+  color: #ff0000
+}
+
+img.round{
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;  
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.6); 
+  border-left: 5px solid #A9A9A9;
+  border-bottom: 5px solid #D3D3D3;
+  border-right: 5px solid #D3D3D3;
+  border-top: 5px solid #A9A9A9;
+  border-style: inset;
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 1s;
+  transition-duration.button: 2s;
+  cursor: pointer;
+  box-shadow: 0 8px #999;
+}
+
+.button:hover{
+  background-color: #000000;
+  color: white;
+}
+
+.button:active{
+    box-shadow: 0 0px #ffffff;
+    transform: translateY(15px);
+}
+
+table{
+  border-collapse: collapse; 
+  width: 100%; 
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-family: 'Comfortaa', cursive;
+
+
+}
+
+table, th, td {
+
+
+
+}
+
+table, td {
+  background: #ededed;
+  border: 1px solid Black;
+  color: #000000;
+  padding: 10px;
+  vertical-align: middle;
+
+}
+
+table, th {
+
+  color: #ededed; 
+  background: #000000; 
+  height:50px; 
+  vertical-align: middle; 
+  border: 1px solid #ededed;
+}
